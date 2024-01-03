@@ -1,0 +1,52 @@
+package Basics;
+import java.util.Scanner;
+
+
+
+
+public class alternativeSwap {
+	
+	public static int[] takeArrayInput(int n){
+		Scanner in=new Scanner(System.in);
+		int arr[] = new int[n];
+		for(int i=0;i<n;i++) {
+			arr[i]= in.nextInt();
+		}
+		in.close();
+		return arr;
+	}
+	
+	public static void arraySwap(int[] arr){
+		
+		int i=0,n=arr.length;
+		for(;i<n;i++) {
+			
+			int j=i+1;
+			if(i<(n-1)) {
+				arr[i]=arr[i]+arr[j];
+				arr[j]=arr[i]-arr[j];
+				arr[i]=arr[i]-arr[j];
+			}
+			i++;
+		}
+		for(;i<n;i++){
+			System.out.println(arr[i]);
+		}
+		
+		
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner i=new Scanner(System.in);
+		
+		int n= i.nextInt();
+		i.close();
+		
+		int array[]=takeArrayInput(n);
+		
+		arraySwap(array);
+	}
+
+}
