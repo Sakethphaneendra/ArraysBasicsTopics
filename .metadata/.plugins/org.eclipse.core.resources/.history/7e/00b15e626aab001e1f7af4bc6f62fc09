@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+public class findUnique {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int t = scanner.nextInt();
+        int[][] testCases = new int[t][];
+
+        for (int i = 0; i < t; i++) {
+            int n = scanner.nextInt();
+            int[] arr = new int[n];
+
+            for (int j = 0; j < n; j++) {
+                arr[j] = scanner.nextInt();
+            }
+
+            testCases[i] = arr;
+        }
+
+        // Finding and printing the unique elements
+        int[] output = findUnique(t, testCases);
+        for (int elem : output) {
+            System.out.println(elem);
+        }
+    }
+
+    private static int[] findUnique(int t, int[][] testCases) {
+        int[] result = new int[t];
+
+        for (int i = 0; i < t; i++) {
+            int n = testCases[i].length;
+            int xorSum = 0;
+
+            for (int num : testCases[i]) {
+                xorSum ^= num;
+            }
+
+            result[i] = xorSum;
+        }
+
+        return result;
+    }
+}

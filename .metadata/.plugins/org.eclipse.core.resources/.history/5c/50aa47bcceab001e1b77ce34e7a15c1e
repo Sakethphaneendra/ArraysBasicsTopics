@@ -1,0 +1,35 @@
+package Basics;
+import java.util.Arrays;
+import java.util.Scanner;
+public class findUnique {
+
+	public static void main(String[] args) {
+
+		Scanner in = new Scanner(System.in);
+		
+		
+		int[] arr= {10,20,30,20,10};
+		int a,b;
+		for(int i=0;i<5;i++) {
+			a= arr[i];
+			for(int j=i+1;j<5;j++) {
+				b= arr[j];
+				
+				if(a!=b) {
+					
+				}
+				else {
+					arr[i] =0;
+					arr[j] =0;
+				}
+			}
+	
+		}
+		int[] arr2 = arr;	
+		System.out.print(Arrays.toString(arr2));
+		
+		
+	}
+	
+}
+

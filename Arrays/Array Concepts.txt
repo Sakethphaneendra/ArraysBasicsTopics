@@ -1,72 +1,105 @@
-Declaration and Initialization:
-
+Declaration and Initialization:-
 Declaring arrays
 Initializing arrays
-Array Types:
 
+__________________________________________________________________
+
+Array Types:-
 Single-dimensional arrays
 Multi-dimensional arrays (2D arrays, 3D arrays, etc.)
-Accessing Array Elements:
 
+__________________________________________________________________
+
+Accessing Array Elements:-
 Using index to access elements
 Iterating through arrays using loops (for, while)
-Array Length:
 
+__________________________________________________________________
+
+Array Length:-
 Retrieving the length of an array
-Array Manipulation:
 
+__________________________________________________________________
+
+Array Manipulation:-
 Modifying array elements
 Adding elements to an array
 Removing elements from an array
-Copying Arrays:
 
+__________________________________________________________________
+
+Copying Arrays:-
 Shallow copy vs deep copy
 Using System.arraycopy()
 Using Arrays.copyOf()
-Array Sorting:
 
+__________________________________________________________________
+
+Array Sorting:-
 Sorting arrays using Arrays.sort()
 Custom sorting for objects in arrays
-Searching in Arrays:
 
+__________________________________________________________________
+
+Searching in Arrays:-
 Linear search
 Binary search (for sorted arrays)
 Enhanced For Loop:
 
 Simplified syntax for iterating through arrays
+
+__________________________________________________________________
 Arrays Class:
 
 Methods provided by the java.util.Arrays class
+
+__________________________________________________________________
 Varargs (Variable-Length Argument Lists):
 
 Using varargs with methods that accept arrays
+
+__________________________________________________________________
 Array of Objects:
 
 Creating arrays of objects
 Iterating through arrays of objects
+__________________________________________________________________
 Jagged Arrays:
 
 Arrays of arrays with different lengths
+
+
+__________________________________________________________________
 Common Pitfalls:
 
 Index out of bounds errors
 Null references in arrays
+__________________________________________________________________
 Multidimensional Arrays:
 
 Working with 2D and 3D arrays
 Matrix operations
+__________________________________________________________________
 Dynamic Arrays:
 
 Introduction to ArrayList
+
+__________________________________________________________________
 Comparisons with Other Collections:
 
 Differences between arrays and other collection types (e.g., ArrayList, LinkedList)
+
+__________________________________________________________________
 Performance Considerations:
 
 Understanding time complexity for array operations
+
+__________________________________________________________________
 Memory Layout:
 
 Understanding how arrays are stored in memory
+
+__________________________________________________________________
 Exception Handling with Arrays:
 
 Handling exceptions related to arrays
