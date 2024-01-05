@@ -1,0 +1,12 @@
+package Basics;
+import java.util.*;
+
+public class findUnique {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int[] array = {10,20,20,10,3,7,3};
+	}
+
+}

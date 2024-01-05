@@ -1,0 +1,15 @@
+package Basics;
+import java.util.Scanner;
+public class findUnique {
+
+	public static void main(String[] args) {
+
+		Scanner in = new Scanner(System.in);
+		
+		
+		int[] arr= {10,20,30,20,10};
+		
+	}
+	
+}
+
