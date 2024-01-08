@@ -1,0 +1,60 @@
+Functions:
+1.Write a function to calculate the square of a number.
+2.Create a function to find the maximum of three numbers.
+3.Implement a function to check if a number is even or odd.
+4.Write a function to calculate the factorial of a given number.
+5.Create a function to check if a string is a palindrome.
+6.Implement a function to reverse a given string.
+7.Write a function to calculate the area of a rectangle.
+8.Create a function to find the GCD of two numbers.
+9.Implement a function to convert Celsius to Fahrenheit.
+10.Write a function to print the Fibonacci series up to n terms.
+11.Create a function to check if a year is a leap year.
+12.Implement a function to calculate the power of a number using recursion.
+13.Write a function to check if a number is prime.
+14.Create a function to calculate the sum of digits of a number.
+15.Implement a function to find the length of a string without using the built-in length() method.
+
+
+
+
+Loops:
+1.Use a loop to print the multiplication table of a given number.
+2.Write a program to print the first 10 natural numbers using a loop.
+3.Create a program to find the sum of all numbers between 1 and 100.
+4.Implement a program to print the pattern:
+*                        
+**
+***
+****
+*****
+5.Write a program to calculate the factorial of a number using a loop.
+6.Create a program to find the average of an array of numbers.
+7.Implement a program to check if a number is a palindrome using a loop.
+8.Write a program to find the sum of even numbers between 1 and 50.
+9.Create a program to print the Fibonacci series using a loop.
+10.Implement a program to find the factors of a number.
+
+
+
+
+
+Conditional Statements:
+1.Write a program to check if a number is positive, negative, or zero.
+2.Create a program to find the maximum of two numbers using conditional statements.
+3.Implement a program to check if a person is eligible to vote.
+4.Write a program to check if a triangle is equilateral, isosceles, or scalene.
+5.Create a program to determine the type of a character (uppercase, lowercase, digit, etc.).
+6.Implement a program to check if a given year is a leap year using conditional statements.
+7.Write a program to calculate the roots of a quadratic equation.
+8.Create a program to find the largest among three numbers using nested if-else statements.
+9.Implement a program to check if a number is even or odd without using the modulus operator.
+10.Write a program to determine the grade of a student based on percentage.
+11.Create a program to find the smallest of three numbers using conditional operators.
+12.Implement a program to check if a character is a vowel or consonant.
+13.Write a program to check if a given string is empty or null.
+14.Create a program to calculate the area of a circle, rectangle, or triangle based on user input.
+15.Implement a program to check if a number is a perfect square.
+
+
+
