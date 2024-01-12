@@ -1,0 +1,32 @@
+package Basics;
+
+public class Sort01 {
+
+	public static void main(String[] args) {
+		
+		int arr[] = {2,4,2,5,13};
+		
+		int len = arr.length;
+		int ss=len-1;
+		
+		for(int i=0;i<len;i++){
+			int p1 =i;
+			int p2 = ss-p1;
+//			System.out.println(p1 + "," +p2);
+			if(arr[p1]==0 && arr[p2]==1) {
+				break;
+			}
+			else {
+				arr[p1]=0;
+				arr[p2]=1;
+			}
+			
+		}
+		for(int i=0;i<len;i++) {
+			System.out.println(arr[i]);
+		}
+		
+
+	}
+
+}
